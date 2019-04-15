@@ -21,7 +21,7 @@
   pttchrome.app = new pttchrome.App(function(app) {
     app.setInputAreaFocus();
     if (!site) {
-      site = 'ptt.cc';
+      site = 'bbs.gamer.com.tw';
     }
     app.connect(site);
     $('#BBSWindow').show();
